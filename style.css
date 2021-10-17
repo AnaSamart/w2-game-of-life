@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f2c9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  font-family: 'Lobster', cursive;
+}
+.title {
+  color: #055052;
+  padding: 5px;
+}
+.row {
+  display: flex;
+}
+
+.black {
+  background-color: #055052;
+}
+
+.col {
+  width: 30px;
+  aspect-ratio: 1;
+  color: transparent;
+  border: 1px solid black;
+}
+
+.grid {
+  background-color: #53b8bb;
+  width: fit-content;
+}
